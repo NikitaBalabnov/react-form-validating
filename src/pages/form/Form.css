@@ -1,0 +1,49 @@
+.step1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.step1_inputs{
+    display: flex;
+    margin-bottom: 20px;
+}
+.step1_inputs>*:not(:last-child){
+    margin-right: 13px;
+}
+.step1 input{
+    max-width: 170px;
+    width: 100%;
+}
+.step1 input,
+.step2 input{
+    padding: 12.5px 14px;
+}
+.step1 label,
+.step2 label {
+    line-height: 1;
+    font-size: .9rem;
+}
+.step2{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    width: 100%;
+    margin: 0 auto;
+}
+.step2>*:not(:last-child){
+    margin-bottom: 15px;
+}
+.MuiPaper-root{
+    cursor: pointer;
+}
+.result_link{
+    text-decoration: none;
+    color: rgb(4, 83, 201);
+}
+.result_actions{
+    display: flex;
+    flex-direction: column;
+}
+.result_actions>*:not(:last-child){
+    margin-bottom: 12px;
+}

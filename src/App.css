@@ -1,0 +1,22 @@
+.container{
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+}
+.total{
+  /* flex: 1 1 auto; */
+  flex-grow: 2;
+}
+.main{
+  display: flex;
+  flex-direction: column;
+}
+.outlet{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.css-1tse5am{
+  background-color: rgb(255 248 202) !important;
+}
