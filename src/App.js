@@ -1,4 +1,4 @@
-import { Navigate, Route, Routes } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Layout from './components/Layout';
 import Error from './pages/Error/Error';
@@ -9,7 +9,7 @@ function App() {
   return (
       <>
         <Routes>
-          <Route path='/' element = {<Layout/>}>
+          <Route path='/react-stepForm-validating/' element = {<Layout/>}>
             <Route index element = {<HomePage/>}/>
             <Route path='form/*' element = {<Form/>}/>
             <Route path='*' element = {<Error/>}/>
