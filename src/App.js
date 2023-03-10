@@ -9,7 +9,7 @@ function App() {
   return (
       <>
         <Routes>
-          <Route path='/react-stepForm-validating/' element = {<Layout/>}>
+          <Route path='/' element = {<Layout/>}>
             <Route index element = {<HomePage/>}/>
             <Route path='form/*' element = {<Form/>}/>
             <Route path='*' element = {<Error/>}/>
